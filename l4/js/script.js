@@ -14,6 +14,13 @@ alert(divisione);
 var piGreco = 3.141592653589793,
 	raggio = 2;
 
+/*
+	La seguente funzione potrebbe anche essere scritta in questo modo
+	var calcoloArea = function(r){
+		return Math.pow(r, 2) * piGreco;	
+	}
+*/
+
 function calcolaArea(r) {
 	return Math.pow(r, 2) * piGreco;
 }
