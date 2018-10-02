@@ -14,22 +14,23 @@ alert(divisione);
 var piGreco = 3.141592653589793,
 	raggio = 2;
 
+// Dichiaro la funzione per il calcolo area
+function calcolaArea(r) {
+	return Math.pow(r, 2) * piGreco;
+}
 /*
-	La seguente funzione potrebbe anche essere scritta in questo modo
+	La precedente funzione potrebbe anche essere scritta in questo modo
 	var calcoloArea = function(r){
 		return Math.pow(r, 2) * piGreco;	
 	}
 */
 
-function calcolaArea(r) {
-	return Math.pow(r, 2) * piGreco;
-}
-
+// Eseguo la funzione calcolaArea() e salvo il risultato nella variabile area
 var area = calcolaArea(raggio);
 
 console.log(area);
 
-// Mostro valore area in alert
+// Mostro valore triplicato area in alert
 function mostroArea(a) {
 	alert(Math.round(a * 3));
 }
