@@ -1,0 +1,13 @@
+#box {
+	width: 150px;
+	height: 150px;
+	background-color: #f00;
+	position: relative;
+}
+
+.rosso {
+	background-color: #f00;
+}
+.blue {
+	background-color: #00f;
+}
